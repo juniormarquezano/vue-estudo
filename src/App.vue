@@ -6,6 +6,9 @@ export default {
 
 <template>
   <div id="app">
+    <router-link :to="{name: 'home'}">Home</router-link>
+    <router-link :to="{name: 'products'}">Produtos</router-link>
+    <hr>
     <router-view></router-view>
   </div>
 </template>
