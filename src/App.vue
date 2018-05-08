@@ -6,6 +6,6 @@ export default {
 
 <template>
   <div id="app">
-    <h1>VueJs instalado do zero</h1>
+    <router-view></router-view>
   </div>
 </template>
