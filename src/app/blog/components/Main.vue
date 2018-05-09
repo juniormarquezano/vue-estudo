@@ -1,6 +1,7 @@
 <script>
 import { mapState, mapActions, mapGetters } from 'vuex'
 export default {
+  name: 'post-index',
   mounted () {
     this.setList()
   },

@@ -1,13 +1,11 @@
 // Importa os componentes
-import Home from '../components/Home'
-import Products from '../components/Products'
-import Posts from '../components/Posts'
-import Users from '../components/Users'
+import Home from '../app/home/components/Home'
+import Posts from '../app/blog/components/Main'
+import Users from '../app/users/components/Main'
 
 // Defini e exporta o routes
 export default [
   { path: '/', component: Home, name: 'home' },
-  { path: '/produtos', component: Products, name: 'products' },
-  { path: '/posts', component: Posts, name: 'posts' },
+  { path: '/posts', component: Posts, name: 'posts.index' },
   { path: '/usuarios', component: Users, name: 'users.index' }
 ]

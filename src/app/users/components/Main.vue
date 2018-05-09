@@ -1,14 +1,15 @@
 <script>
 import { mapState, mapActions } from 'vuex'
 export default {
+  name: 'users-index',
   mounted () {
     this.setUsers()
   },
   methods: {
-    ...mapActions('Users', ['setUsers'])
+    ...mapActions('users', ['setUsers'])
   },
   computed: {
-    ...mapState('Users', ['users'])
+    ...mapState('users', ['users'])
   }
 }
 </script>
