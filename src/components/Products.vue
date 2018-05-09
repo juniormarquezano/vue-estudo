@@ -1,5 +1,6 @@
 <script>
   export default {
+    /*
     data () {
       return {
         list: [
@@ -8,6 +9,12 @@
           { id: 3, product: 'Máquina de Lavar'},
           { id: 4, product: 'Cama Box'},
         ]
+      }
+    },
+    */
+    computed: {
+      list () {
+        return this.$store.state.products.list
       }
     }
   }
