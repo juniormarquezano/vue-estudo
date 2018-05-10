@@ -1,3 +1,4 @@
+// ARQUIVO DE CONFIGURAÇÃO DAS ROTAS
 // Importa o vue
 import Vue from 'vue'
 // Importa o Vue Router
