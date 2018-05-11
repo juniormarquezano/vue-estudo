@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Root',
+  name: 'Cyber',
 }
 </script>
 

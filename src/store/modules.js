@@ -1,4 +1,3 @@
-import { store as blog } from '../app/blog'
-import { store as users } from '../app/users'
+import { store as app } from '../app'
 
-export default { blog, users }
+export default { ...app }
