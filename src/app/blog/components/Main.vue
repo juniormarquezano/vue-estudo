@@ -1,16 +1,16 @@
 <script>
 import { mapState, mapActions, mapGetters } from 'vuex'
 export default {
-  name: 'post-index',
+  name: 'blog-index',
   mounted () {
     this.setList()
   },
   methods: {
-    ...mapActions('posts', ['setList'])
+    ...mapActions('blog', ['setList'])
   },
   computed: {
-    ...mapState('posts', ['posts']),
-    ...mapGetters('posts', ['leanList'])
+    ...mapState('blog', ['posts']),
+    ...mapGetters('blog', ['leanList'])
   }
 }
 </script>

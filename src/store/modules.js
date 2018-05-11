@@ -1,4 +1,4 @@
-import posts from '../app/blog/store'
-import users from '../app/users/store'
+import { store as blog } from '../app/blog'
+import { store as users } from '../app/users'
 
-export default { posts, users }
+export default { blog, users }
