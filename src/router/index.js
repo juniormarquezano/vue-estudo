@@ -12,6 +12,7 @@ Vue.use(VueRouter)
 // Inicia uma nova instância do Vue Router
 const router = new VueRouter({
   mode: 'history', // Remove o /#/ da url
+  linkActiveClass: 'active',
   routes // Defini o routes importado acima
 })
 
